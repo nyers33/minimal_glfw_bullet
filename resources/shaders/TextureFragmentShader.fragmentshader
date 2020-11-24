@@ -1,0 +1,12 @@
+#version 330 core
+
+// Ouput data
+out vec3 color;
+
+// Values that stay constant for the whole mesh.
+uniform vec3 albedo;
+
+void main(){
+
+	color = albedo;
+}
